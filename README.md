@@ -41,10 +41,6 @@ def send_hwid(self):
 
 - If you aren't interested in using an API then you can just delete it
 
-## 3. Bomber Setup
-
-
-Inside of ```main.py``` change the variables like ```password, sender_email and reciever_email``` to your preference. If you'd like to make it more automated, you can put something like ```password = input("enter a password ")``` so you don't have to go into the code base to change it all the time.
 
 # Tips
 
