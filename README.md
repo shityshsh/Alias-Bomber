@@ -13,7 +13,7 @@
 
 You can either clone it or download the zip.
 ```
-git clone https://github.com/juzeon/Alias-Bomber.git
+git clone https://github.com/aliasnoclip/Alias-Bomber.git
 cd Alias-bomber
 ```
 
