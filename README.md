@@ -17,7 +17,7 @@ git clone https://github.com/aliasnoclip/Alias-Bomber.git
 cd Alias-bomber
 ```
 
-## 2. hwid checker setup
+## 2. hwid checker setup - for skids only
 
 
 In ```hwid_checker.py``` find the ```send_hwid()``` function and edit it to your liking. I'm not going to tell you how to make an API (You should already know) but make sure your api is able to take whatever parameters you sent in the ```hwid_data``` variable
@@ -41,10 +41,6 @@ def send_hwid(self):
 
 - If you aren't interested in using an API then you can just delete it
 
-## 3. Bomber Setup
-
-
-Inside of ```main.py``` change the variables like ```password, sender_email and reciever_email``` to your preference. If you'd like to make it more automated, you can put something like ```password = input("enter a password ")``` so you don't have to go into the code base to change it all the time.
 
 # Tips
 
