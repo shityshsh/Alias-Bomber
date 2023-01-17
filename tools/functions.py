@@ -7,7 +7,8 @@ def system():
     return os_name
 
 def clear():
-    os.system('cls' if os.name == 'nt' else 'clear')
+        print("\033c") 
+
 
 
 

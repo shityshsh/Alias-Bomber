@@ -53,11 +53,17 @@ def ascii():
 def display_menu():
     print( Fore.LIGHTRED_EX + """
     
-    Alias Emailer v1 | Home | alias#9999
+    Alias Bomber v1 | Home | alias#9999
     
     [1] Gmail
     
     [2] Outlook
+
+    [3] Api Support In V2 - Feel Free To Fork :)
+
+    [4] Clear
+
+    [5] Exit Program
     
     """ + Style.RESET_ALL)
 
@@ -69,7 +75,7 @@ def handle_choice(choice):
         send_outlook_emails()
         pass
     elif choice == "3":
-        # code for option 3 v2
+        clear()
         pass
     elif choice == "4":
                 clear()

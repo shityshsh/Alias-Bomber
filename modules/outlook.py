@@ -8,12 +8,12 @@ from tools.functions import clear
 
 emails_sent = 0
 emails_failed = 0
-
+clear()
 def send_outlook_emails():
     sender_email = input("Your Email: ")
     password = input("Your Password: ")
     receiver_email = input("Target Email: ")
-    message = (MIMEText("This is a body "))
+    message = (MIMEText(input("Message: ")))
     message["From"] = sender_email
     message["To"] = receiver_email
     message["Subject"] = input("What is the subject? ")
@@ -21,9 +21,14 @@ def send_outlook_emails():
     num_emails = int(num_input)
     server = smtplib.SMTP('smtp-mail.outlook.com', 587)
     server.starttls()
-    server.login(sender_email, password)
+    try:
+        server.login(sender_email, password)
+    except:
+        print("Log In Failed, Please Check Your Credentials")
+        exit()
 
     def send_email_outlook(sender_email, receiver_email, password, message):
+        clear()
         global emails_sent
         global emails_failed
         try:
@@ -45,6 +50,7 @@ def send_outlook_emails():
         threads.append(thread)
 
     for thread in threads:
+        time.sleep(5)
         thread.join()
 
     print(f"""

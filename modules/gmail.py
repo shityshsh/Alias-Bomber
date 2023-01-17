@@ -13,7 +13,7 @@ def send_gmail_emails():
     sender_email = input("Your Email: ")
     password = input("Your Password: ")
     receiver_email = input("Target Email: ")
-    message = (MIMEText("This is a body "))
+    message = (MIMEText(input("Message: ")))
     message["From"] = sender_email
     message["To"] = receiver_email
     message["Subject"] = input("What is the subject? ")
@@ -21,7 +21,11 @@ def send_gmail_emails():
     num_emails = int(num_input)
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
-    server.login(sender_email, password)
+    try:
+        server.login(sender_email, password)
+    except:
+        print("Log In Failed, Please Check Your Credentials")
+        exit()
 
     def send_email_gmail(sender_email, receiver_email, password, message):
         global emails_sent
