@@ -48,9 +48,9 @@ def send_hwid(self):
 
 ## 3. Getting Gmail App Key
 
-```
+`
 Go To Your Gmail --> Manage Google Your Account ---> Security Sigining In With Gmail ---> Enable 2FA ---> Repeat The First 3 Steps Then Click "App Passwords" and create your key.
-```
+`
 
 # Tips
 
