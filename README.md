@@ -46,6 +46,12 @@ def send_hwid(self):
 - If you aren't interested in using an API then you can just delete it
 
 
+## 3. Getting Gmail App Key
+
+```
+Go To Your Gmail --> Manage Google Your Account ---> Security Sigining In With Gmail ---> Enable 2FA ---> Repeat The First 3 Steps Then Click "App Passwords" and create your key.
+```
+
 # Tips
 
 - Use email subjects and phrases that spam filters haven't already learned to defend against.
