@@ -3,6 +3,10 @@
  
 ## DISCLAIMER:THIS PROJECT IS FOR ACADEMIC PURPOSES ONLY. THE DEVELOPERS TAKE NO RESPONSIBILITY FOR ILLEGAL USAGE AND/OR POTENTIAL HARMS.
 
+- Adding API Support + Proxies For v2
+- Gmail collapses multiple emails sent within a certain amount of time, im working on a solution/adding multiple mail support.
+
+
 ## Requirements
 - Python 3.10+
 - Basic Programming Knowledge
@@ -42,16 +46,19 @@ def send_hwid(self):
 - If you aren't interested in using an API then you can just delete it
 
 
-# Tips
+## 3. Getting Gmail App Key
 
-- If you want to prevent your emails from entering the spam folder, using proxies and or increase the cooldown in the ```main.py``` file.
+`
+Go To Your Gmail --> Manage Google Your Account ---> Security Sigining In With Gmail ---> Enable 2FA ---> Repeat The First 3 Steps Then Click "App Passwords" and create your key.
+`
+
+# Tips
 
 - Use email subjects and phrases that spam filters haven't already learned to defend against.
 
 - Use a aged gmail account, protonmail and outlook hit the spam folder quicker.
 
-
-
+- Verify your outlook with a phone number before sending out emails with it or it will get locked instantly
 
 
 
