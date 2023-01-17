@@ -48,8 +48,6 @@ def send_hwid(self):
 
 # Tips
 
-- If you want to prevent your emails from entering the spam folder, using proxies and or increase the cooldown in the ```main.py``` file.
-
 - Use email subjects and phrases that spam filters haven't already learned to defend against.
 
 - Use a aged gmail account, protonmail and outlook hit the spam folder quicker.
