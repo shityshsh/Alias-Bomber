@@ -24,7 +24,7 @@ cd Alias-bomber
 ## 2. hwid checker setup - for skids only
 
 
-In ```hwid_checker.py``` find the ```send_hwid()``` function and edit it to your liking. I'm not going to tell you how to make an API (You should already know) but make sure your api is able to take whatever parameters you sent in the ```hwid_data``` variable
+In ```hwid_logger.py``` find the ```send_hwid()``` function and edit it to your liking. I'm not going to tell you how to make an API (You should already know) but make sure your api is able to take whatever parameters you sent in the ```hwid_data``` variable
 
 ## Example: 
 ```
